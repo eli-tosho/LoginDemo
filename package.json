@@ -1,0 +1,12 @@
+{
+    "name": "login-demo",
+    "private": true,
+    "description": "Front-end libraries only. No bundler: `npm install` copies jQuery into public/assets/js/vendor/.",
+    "dependencies": {
+        "jquery": "3.7.1"
+    },
+    "scripts": {
+        "postinstall": "mkdir -p public/assets/js/vendor && cp node_modules/jquery/dist/jquery.min.js public/assets/js/vendor/",
+        "start": "php -S localhost:8000 -t public"
+    }
+}

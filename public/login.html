@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+<section id="login" hidden>
+    <h1>Login</h1>
+    <p id="error" hidden></p>
+    <form id="form">
+        <label>Email <input type="email" name="email" required autocomplete="username"></label><br>
+        <label>Password <input type="password" name="password" required autocomplete="current-password"></label><br>
+        <button type="submit">Sign in</button>
+    </form>
+</section>
+
+<section id="home" hidden>
+    <h1>Welcome, <span id="name"></span></h1>
+    <button id="logout">Log out</button>
+</section>
+
+<script src="/assets/js/vendor/jquery.min.js"></script>
+<script src="/assets/js/login.js"></script>
+</body>
+</html>

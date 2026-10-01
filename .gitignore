@@ -1,0 +1,6 @@
+.DS_Store
+
+# installed by `composer install` / `npm install`
+/vendor/
+/node_modules/
+/public/assets/js/vendor/*.js
